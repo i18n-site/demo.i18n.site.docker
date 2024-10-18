@@ -1,0 +1,6 @@
+services:
+  nginx:
+    container_name: i18n-nginx
+    extends:
+      file: nginx.yml
+      service: nginx
